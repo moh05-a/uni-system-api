@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="UniSys.UnitTests/UniSys.UnitTests.csproj" />
+  <Project Path="UniSys/UniSys.csproj" />
+</Solution>
