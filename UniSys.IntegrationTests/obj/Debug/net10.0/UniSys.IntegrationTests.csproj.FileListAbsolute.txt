@@ -428,3 +428,5 @@ C:\Users\mamee\UniSys\UniSys.IntegrationTests\obj\Debug\net10.0\refint\UniSys.In
 C:\Users\mamee\UniSys\UniSys.IntegrationTests\obj\Debug\net10.0\UniSys.IntegrationTests.pdb
 C:\Users\mamee\UniSys\UniSys.IntegrationTests\obj\Debug\net10.0\UniSys.IntegrationTests.genruntimeconfig.cache
 C:\Users\mamee\UniSys\UniSys.IntegrationTests\obj\Debug\net10.0\ref\UniSys.IntegrationTests.dll
+C:\Users\mamee\UniSys\UniSys.IntegrationTests\bin\Debug\net10.0\RabbitMQ.Client.dll
+C:\Users\mamee\UniSys\UniSys.IntegrationTests\obj\Debug\net10.0\UniSys.IntegrationTests.sourcelink.json

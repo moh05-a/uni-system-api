@@ -299,7 +299,7 @@
           "System.Threading.Channels": "10.0.0.0",
           "System.Threading": "10.0.0.0",
           "System.Threading.Overlapped": "10.0.0.0",
-          "System.Threading.RateLimiting": "10.0.0.0",
+          "System.Threading.RateLimiting.Reference": "10.0.0.0",
           "System.Threading.Tasks.Dataflow": "10.0.0.0",
           "System.Threading.Tasks": "10.0.0.0",
           "System.Threading.Tasks.Extensions": "10.0.0.0",
@@ -1255,6 +1255,20 @@
           "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         }
       },
+      "RabbitMQ.Client/7.2.1": {
+        "dependencies": {
+          "System.Threading.RateLimiting": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.1.0"
+          }
+        },
+        "compile": {
+          "lib/net8.0/RabbitMQ.Client.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/10.2.1": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "10.0.0",
@@ -1389,6 +1403,7 @@
           "Microsoft.AspNetCore.Mvc.Testing": "10.0.9",
           "Microsoft.AspNetCore.OpenApi": "10.0.8",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.2",
+          "RabbitMQ.Client": "7.2.1",
           "Swashbuckle.AspNetCore": "10.2.1"
         },
         "runtime": {
@@ -2919,7 +2934,7 @@
         },
         "compileOnly": true
       },
-      "System.Threading.RateLimiting/10.0.0.0": {
+      "System.Threading.RateLimiting.Reference/10.0.0.0": {
         "compile": {
           "System.Threading.RateLimiting.dll": {}
         },
@@ -3067,6 +3082,9 @@
         "compileOnly": true
       },
       "Microsoft.Extensions.ApiDescription.Server/10.0.0": {
+        "compileOnly": true
+      },
+      "System.Threading.RateLimiting/8.0.0": {
         "compileOnly": true
       },
       "xunit.analyzers/1.18.0": {
@@ -3404,6 +3422,13 @@
       "sha512": "sha512-PsNYgPOSW41Xx19gin7y4EdZAPteWr9Cb01XkdObxOsPzi+mgBupBEN7J7+erXFsROPOILM7MlIoO9QzL8+LGQ==",
       "path": "npgsql.entityframeworkcore.postgresql/10.0.2",
       "hashPath": "npgsql.entityframeworkcore.postgresql.10.0.2.nupkg.sha512"
+    },
+    "RabbitMQ.Client/7.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YKXEfg9fVQiTKgZlvIhAfPSFaamEgi8DsQmisCH0IAsU4FYLrtoguDrDj6JtJVGUt40QPnBLRH6fTQcAC4qsOg==",
+      "path": "rabbitmq.client/7.2.1",
+      "hashPath": "rabbitmq.client.7.2.1.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/10.2.1": {
       "type": "package",
@@ -4752,7 +4777,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Threading.RateLimiting/10.0.0.0": {
+    "System.Threading.RateLimiting.Reference/10.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4885,6 +4910,13 @@
       "sha512": "sha512-NCWCGiwRwje8773yzPQhvucYnnfeR+ZoB1VRIrIMp4uaeUNw7jvEPHij3HIbwCDuNCrNcphA00KSAR9yD9qmbg==",
       "path": "microsoft.extensions.apidescription.server/10.0.0",
       "hashPath": "microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512"
+    },
+    "System.Threading.RateLimiting/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7mu9v0QDv66ar3DpGSZHg9NuNcxDaaAcnMULuZlaTpP9+hwXhrxNGsF5GmLkSHxFdb5bBc1TzeujsRgTrPWi+Q==",
+      "path": "system.threading.ratelimiting/8.0.0",
+      "hashPath": "system.threading.ratelimiting.8.0.0.nupkg.sha512"
     },
     "xunit.analyzers/1.18.0": {
       "type": "package",
